@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer&display=swap');
+
+* {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+h1 {
+    font-size: 2em;
+    color: orange;
+}
+
+
+.pageContainer {
+  width: auto;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+}
+
+
+@media only screen and (min-width: 0px) and (max-width: 800px)
+{
+  .pageContainer {
+    width: 95%;
+  }
+
+  
+}
